@@ -106,4 +106,47 @@ CentOS를 기반으로 한 OS 기초
         * 파일 시스템 일시적으로 마운트 할 때 사용
     + /lost+found
         * 결함 존재하는 파일에 대한 정보가 저장되는 디렉터리 
-    
+<hr />
+
+### 리눅스 배포판
+- 리눅스 전체 시스템을 구성하는 소프트웨어 패키지 형태
+- 자유로운 소프트웨어로 구성된 운영체제
+- 종류
+    * 슬랙웨어 리눅스(Slackware Linux)
+    * 데비안(Debain)
+    * 우분투(ubuntu)
+    * 레드햇
+    * RHEL(Red Hat Enterprise Linux)
+    * 페도라
+    * CentOS
+    * 수세(SuSe)
+<hr />
+
+### 리눅스 역사
+- 리눅스의 역사
+![Alt text](centOS_images/리눅스역사.png)
+
+- 1960년대 후반
+    * 1969년 켄 톰슨이 초기 형태의 UNIX 개발
+- 1970년대
+    * 1971년 데니스 리치가 c언어 개발
+    * 어셈블리어로 개발된 UNIX를 C언어로 재작성
+- 1980년대
+    * 리차드 스톨먼 GNU 프로젝트 시작
+    * GNU 선언문 발표
+    * 1987년 앤드루 타넨바움이 교육용 유닉스 계열 운영체제 미닉스 개발
+- 1990년대
+    * 리누스 토발즈 GNU에 적합한 커널 개발
+    * 유닉스 커널과 호환 가능한 커널인 리눅스를 GNU 시스템의 커널로 채택
+<hr />
+
+### 리눅스 라이선스
+- GNU(GNU's Not UNIX)
+- 자유 소프트웨어 재단(FSF, Free SoftWare Foundation)
+- 오픈 소스 소프트웨어(Open Source Software)
+- GNU GPL(General Public License)
+- GNU LGPL(Lesser General Public License)
+- BSD(Berkeley Software Distribution) 라이선스
+- 아파치(Apache) 라이선스
+- MIT(Massachusetts Institute of Technology) 라이선스
+- MPL(Mozilla public Lincense)
