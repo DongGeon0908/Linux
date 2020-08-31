@@ -1009,3 +1009,39 @@ CentOS를 기반으로 한 OS 기초
     + 옵션
         * `-s`
     + 관리자 환경에서 지정된 계정자의 정보 변경할 때 사용    
+<hr />
+
+### 환경설정
+- 환경변수(전역변수)
+    + 전체 셀에서 사용 가능
+    + 서브셀에 기능 상속 가능
+    + `env`
+        * 환경 변수 확인 명령
+    + 주요 환경 변수
+        * `PATH, HOME, HOSTNAME, USER, DISPLAY, PS1, PS2, PWD, SHELL, USER, TERM, TMOUT, PRINT, MAIL`
+    + 환경 변수 설정
+        * `export, export 변수명 = 변수값, echo $변수명, export 변수명=$변수명:변수값, unset 변수명`
+- 셀 변수(지역변수)
+    + 현재 로그인 셀에서만 사용 가능
+    + 서브 셀에 기능 상속 불가능
+    + `set`
+        * 셀 변수 확인 명령
+    + 프롬프트 설정 형식
+        * `\t, \W, \w, \s`
+- 환경 설정 파일
+    + 셀 시작 시 자동으로 실행되는 고유의 시작 파일
+    + 사용자 운영환경을 설정
+    + `/etc/profile, /etc/bashrc, ~/.bash_profile, ~/.bashrc`
+    + 전역 설정 파일
+        * `/etc/profile`
+        * `/etc/bashrc`
+    + 지역 설정 파일
+        * `~/.bash_profile`
+        * `~/.bash_history`
+        * `~/.bashrc`
+        * `~/.bash_logout`
+- bash shell
+    + history 기능
+        * 기존에 사용했던 명령어 재사용
+    + alias 기능
+        * 자주 사용하는 명령어 특정 문자로 지정    
