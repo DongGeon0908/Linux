@@ -1186,3 +1186,42 @@ CentOS를 기반으로 한 OS 기초
 - `vi`
     + 편집모드 - 명령모드 - 입력모드
 <hr />
+
+### 프로그램 설치
+- 리눅스는 대표적으로 데비안 계열과 레드햇 계열로 나눠짐
+- 데비안 계열
+    + `Debian, Ubuntu, Xandros, Linspire`
+        * `dpkg, apt-get, aptitude`
+- 레드햇 계열
+    + `Fedora, CentOS, RHEL, openSUSE, Mandriva`
+        * `rpm, yum`
+- RPM(RedHat Package Manager)
+    + 패키지 관리 툴
+    + 새로운 패키지 설치, 업그레이드, 삭제
+    + 패키지 확장명 `*.rpm`
+    - `rpm 옵션 패키지명`
+        + 옵션
+            * `-i, -h, -U, -e, -q, -f, -F, -v, -vv, --nodeps, --force, --oldpackage, --replacepkgs, --replacefiles, --force`
+- YUM(Yellowdog Updater Modified)
+    + 기존 RPM 패키지 파일의 업데이트 자동 수행, 새로운 패키지 설치 및 제거 수행
+    + RPM 의존성 문제 해결
+    + 네트워크 필요
+- `dpkg`
+    + `패키지명_버전-릴리즈번호-리버전_아키텍처.deb`
+    + 저레벨 패키지 관리 툴
+    + 패키지의 설치, 삭제, 정보 제공
+    + 루트 권한으로 패키지 설치와 삭제 가능
+    + 패키지 설치 및 삭제 시 의존성 문제 발생 가능    
+    - `dpkg 옵션 패키지명.deb`
+        + 옵션
+            * `-i, -r, -P, -s, -L`
+- `apt-get(advanced packaging tool get`
+    + 소프트웨어 설치와 제거를 위한 패키지 관리 유틸리티
+    + 의존성과 충돌문제를 해결하기 위해 `/etc/apt/sources.list` 참조
+    - `apt-get 옵션 명령어 패키지명`
+        + 옵션
+            `-y, -u, -V`
+- `aptitude`
+    + 우분투의 패키지 관리 유틸리티
+    + 패키지 관리 자동화
+    - `aptitude  서브명령`                 
