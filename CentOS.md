@@ -1385,3 +1385,28 @@ CentOS를 기반으로 한 OS 기초
     + `.Xauthority`파일의 쿠키 내용을 추가, 삭제, 리스트를 출력하는 유틸리티
     + MMC 방식의 인증 방식을 사용하기 위한 필수 유틸리티
 <hr />
+
+### 네트워크 NETWORK
+- 통신망 종류
+    + LAN(Local Area Network) 근거리 통신망
+        * 근접한 거리의 정보 기기들 사이의 고속 통신 제공하는 통신망
+        * `Ethernet, Token Ring, FDD`
+    + MAN(Metropolitan Area Network)
+        * LAN보다 큰 규모
+        * WAN보다는 지리적으로 작은 규모
+        * 도시권 통신망
+        * LAN을 연결해 백본라인(Backbone Line) 형성
+        * 저렴한 비용
+        * `DQDB`
+    + WAN(Wide Area Network) 원거리 통신망
+        * 넓은 지역을 연결하는 네트워크
+        * 거리제한 없음
+        * 속도가 느리고 전송 에러율 높음
+        * `전용선, 회선교환망, 패킷교환망`
+    + SAN(Storage Area Network)
+        * 스토리지 전용 고속 네트워크
+        * 저장장치 네트워크
+        * 호스트의 장비에 구애받지 않고 별도의 연결된 저장장치 사이에 대용량의 데이터를 전송 가능
+        * I/O 요청을 직접 블록 I/O로 전환
+
+        
