@@ -1408,5 +1408,17 @@ CentOS를 기반으로 한 OS 기초
         * 저장장치 네트워크
         * 호스트의 장비에 구애받지 않고 별도의 연결된 저장장치 사이에 대용량의 데이터를 전송 가능
         * I/O 요청을 직접 블록 I/O로 전환
+<hr />
 
+### 네트워크 개요
+- `LAN 토폴로즈(Topology)`
+    + 호스트 및 장비들의 물리적인 배치 형태
+    + 성형, 망형, 버스형, 링형, 트리형
+- `매체 접근 제어 방식(Media Access Control)`
+    + 여러 단만들이 공유 매체 사용에 대한 단말 간 충돌/경합 발생을 제어하는 것
+    + `CSMA/CD(carrier sense muliple access /collision detection)`
+        * 단말기가 전송로의 신호 유무를 조사하고 다른 단말기가 신호를 송출하는지 확인
+    + `토큰 패싱(Token Passing)`
+        * `Token`의 흐름에 의해 전송 순서 결정
+        * `free token`과 `busy token`을 이용해 매체 접근 제어
         
